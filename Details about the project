@@ -1,0 +1,61 @@
+# Automatic Sanitary Napkin Dispenser with Blynk App
+
+## 📌 Project Overview
+This project presents the design and development of an **Automatic Sanitary Napkin Dispenser** integrated with the **Blynk IoT app**.  
+The aim is to create a **hygienic, contactless, and IoT-enabled solution** that ensures easy access to sanitary napkins in schools, colleges, offices, and public places.  
+
+The system dispenses a napkin automatically when a user places their hand near the sensor, while the Blynk app allows real-time monitoring of the stock level.
+
+---
+
+## ⚙️ Components Used
+- **Microcontroller**: NodeMCU (ESP8266) / ESP32 / Arduino UNO (depending on choice)  
+- **IR Sensor**: For detecting hand presence  
+- **Motor/Servo**: For dispensing napkins  
+- **Relay Module**: To control motor mechanism  
+- **Blynk App**: IoT-based mobile app for monitoring  
+- **Power Supply**: 5V/12V depending on motor and microcontroller  
+
+---
+
+## 🚀 Working Principle
+1. The **IR sensor** detects the presence of a hand near the dispenser.  
+2. The **microcontroller** processes the signal and triggers the motor.  
+3. One sanitary napkin is dispensed.  
+4. The **Blynk App** updates the count of napkins and shows availability.  
+5. When stock is low, a notification can be sent via Blynk.  
+
+---
+
+## 📱 Blynk App Integration
+- Live monitoring of napkin stock.  
+- Notification when supply is low.  
+- Simple and user-friendly mobile interface.  
+
+---
+
+## 🌟 Features
+- ✅ Contactless and hygienic dispensing  
+- ✅ IoT-enabled monitoring through Blynk  
+- ✅ Easy installation in public restrooms  
+- ✅ Low-cost, scalable solution  
+
+---
+
+## 🔮 Future Scope
+- Integration with **payment systems** for cost recovery.  
+- **SMS/Email alerts** to authorities when stock is low.  
+- **Solar-powered** operation for rural/remote areas.  
+- Expansion into **vending machines for other hygiene products**.  
+
+---
+
+## 🏫 Project Information
+- **Title**: Automatic Sanitary Napkin Dispenser with Blynk App  
+- **Type**: Mini Project (IoT + Embedded Systems)  
+- **Domain**: IoT, Embedded Systems, Healthcare & Hygiene  
+- **Developed by**: *[Your Name]*  
+
+---
+
+✍️ *This repository contains project documentation and future updates. Code, circuit diagrams, and images will be added as development progresses.
